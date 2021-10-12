@@ -1,0 +1,13 @@
+[package]
+name = "mir"
+version = "0.1.0"
+authors = ["David Qualcosa <dbaro13@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+phf = {version = "0.10.0", features = ["macros"]}
+structopt = "0.3.23"
+
+[dev-dependencies]
+assert_cmd = "2.0.2"
+predicates = "2.0.3"
