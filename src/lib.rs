@@ -18,6 +18,8 @@ const MIRROR_CHARS: phf::Map<char, char> = phf_map! {
     ']' => '[',
     '{' => '}',
     '}' => '{',
+    '´' => '`',
+    '`' => '´',
 };
 
 fn mirror_line<S: AsRef<str>>(s: S) -> String {
