@@ -10,4 +10,5 @@ structopt = "0.3.23"
 
 [dev-dependencies]
 assert_cmd = "2.0.2"
-predicates = "2.0.3"
+predicates = "2.1.1"
+regex = "1.5.5"
